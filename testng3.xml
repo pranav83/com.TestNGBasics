@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Regression TestCases">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+       <classes>
+           <class name="TestNGBasic.Step1TestNG"></class>
+           <class name="TestNGBasic.Step2Loan"></class>
+           <class name="TestNGBasic.Step3CarLoan"></class>
+           <class name="TestNGBasic.Step4HomeLoan"></class>
+           <class name="TestNGBasic.Step5MobileTest"></class>
+           
+       </classes>
+    </test>
+    
+
+</suite>

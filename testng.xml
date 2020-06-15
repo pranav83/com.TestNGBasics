@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/BasicTestNG">
+        <classes>
+            <class name="TestNGBasic.Step1TestNG">
+                <methods>
+                    <include name="secondTest"/>
+                </methods>
+            </class>
+            <class name="TestNGBasic.Step3CarLoan">
+                <methods>
+                    <include name="webCarLoan"/>
+                    <include name="mobileCarLoan"/>
+                </methods>
+            </class>
+            <class name="TestNGBasic.Step4HomeLoan">
+                <methods>
+                    <include name="mobileHomeLoan"/>
+                    <include name="apiHomeloan"/>
+                </methods>
+            </class>
+            <class name="TestNGBasic.Step5MobileTest">
+                <methods>
+                    <include name="mobileLogin"/>
+                    <include name="mobileName"/>
+                    <include name="mobileRegister"/>
+                    <include name="mobileApp"/>
+                    <include name="mobileGallery"/>
+                    <include name="mobileFilemanager"/>
+                    <include name="facebookLogin"/>
+                    <include name="instaLogin"/>
+                    <include name="whattsappLogin"/>
+                </methods>
+            </class>
+            <class name="TestNGBasic.Step6DataProvider">
+                <methods>
+                    <include name="setData"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
